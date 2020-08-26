@@ -1,0 +1,51 @@
+.app {
+    width: 100%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col1 {
+    width: 50%;
+    height: 630px;
+
+    background-color: #cd84f1;
+}
+
+.app .app__col2 {
+    width: 50%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app .app__col2 .app__col2__sec1 {
+    width: 100%;
+    height: 80px;
+
+    background-color: #f8a5c2;
+}
+
+.app .app__col2 .app__col2__sec2 {
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col2 .app__col2__sec2__box1 {
+    width: 50%;
+    height: 550px;
+
+    background-color: #7efff5;
+}
+
+.app .app__col2 .app__col2__sec2__box2 {
+    width: 50%;
+    height: 550px;
+
+    background-color: #fffa65;
+}
